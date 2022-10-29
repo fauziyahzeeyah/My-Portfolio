@@ -85,6 +85,7 @@
   transform: translateX(-45px);
   background-color: transparent;
 }
+
 .menu-bar::before,
 .menu-bar::after {
   content: "";
