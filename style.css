@@ -26,40 +26,40 @@
   width: 100%;
 }
 
+.nav-links ul {
+  display: flex;
+}
+
 .nav-links.open ul {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
 }
 
+.nav-links ul li {
+  margin-right: 10px;
+}
+
 .nav-links.open ul li {
   margin-top: 1.5rem;
 }
 
+.nav-links ul li a {
+  color: #344563;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
 .nav-links.open ul li a {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-}
-
-.nav-links ul {
-  display: flex;
-}
-
-.nav-links ul li {
-  margin-right: 10px;
-}
-
-.nav-links ul li a {
-  color: #344563;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
 }
 
 .toogle {
@@ -72,21 +72,6 @@
   cursor: pointer;
 }
 
-.toogle.open .menu-bar {
-  transform: translateX(-45px);
-  background-color: transparent;
-}
-
-.toogle.open .menu-bar::before {
-  transform: rotate(45deg) translate(35px, -35px);
-  background-color: #fff;
-}
-
-.toogle.open .menu-bar::after {
-  transform: rotate(-45deg) translate(35px, 35px);
-  background-color: #fff;
-}
-
 .menu-bar {
   width: 30px;
   height: 4px;
@@ -96,6 +81,10 @@
   transition: all 0.5s ease-in-out;
 }
 
+.toogle.open .menu-bar {
+  transform: translateX(-45px);
+  background-color: transparent;
+}
 .menu-bar::before,
 .menu-bar::after {
   content: "";
@@ -111,12 +100,22 @@
   transform: translateY(-10px);
 }
 
+.toogle.open .menu-bar::before {
+  transform: rotate(45deg) translate(35px, -35px);
+  background-color: #fff;
+}
+
 .menu-bar::after {
   transform: translateY(10px);
 }
 
+.toogle.open .menu-bar::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+  background-color: #fff;
+}
+
 .logo h3 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -138,21 +137,19 @@
 }
 
 .intro-paragraph h1 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
-  /* width: 920px; */
   line-height: 60px;
   color: #091e42;
 }
 
 .intro-paragraph p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  /* width: 920px; */
   margin-top: 30px;
   line-height: 28px;
   color: #344563;
@@ -160,7 +157,7 @@
 
 .social-media-btn h4 {
   margin-top: 2rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bolder;
   font-size: 17px;
@@ -208,5 +205,4 @@
   .logo h3 {
     margin-left: 150px;
   }
-
 }
