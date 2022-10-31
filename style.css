@@ -142,8 +142,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
-  height: 122px;
+  line-height: 24px;
   color: #091e42;
 }
 
@@ -151,7 +150,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 30px;
   line-height: 28px;
   color: #344563;
@@ -193,6 +192,7 @@
   .intro {
     background-image: url("./images/header-bg-desktop.png");
     background-repeat: no-repeat;
+    padding-top: 50px;
   }
 
   .intro-paragraph {
