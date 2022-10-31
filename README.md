@@ -21,7 +21,7 @@ Port-folio-Mobile Setup
 - Technologies used- GIT, GITHUB & LINTERS
 
 
-To get a local copy up and running follow these simple example steps. Clone my repo named "port-folio"
+To get a local copy up and running follow these simple example steps. Clone my repo named "port-folio-mobile"
 
 
 ## Authors
