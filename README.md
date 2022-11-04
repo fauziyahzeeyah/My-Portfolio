@@ -4,7 +4,18 @@
 Port-folio-Mobile Setup
 
 > ## Description the project.
+<<<<<<< HEAD
 This project was built with HTML, CSS & few JAVASCRIPT. This is a mobile setup portfolio about myself. You can connect with me through my portfolio if you needed a project to be done.
+=======
+ In this port-folio-mobile setup, I:
+ - Created a master branch;
+ - Added a HTML file and text;
+ - Added a CSS file;
+ - Added a Linters file;
+ - Added a Javascript;
+ - Added a styling;
+ - Added github workflow and gitignore files.
+>>>>>>> 2afdd4c9e6265e6ab58f121d35273ba8e96d6a2b
 
 
 ## Built With
@@ -51,4 +62,8 @@ _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/
 
 ## 📝 License
 
+<<<<<<< HEAD
 This project is [MIT](./LICENSE) licensed.
+=======
+This project is [MIT](./LICENSE) licensed.
+>>>>>>> 2afdd4c9e6265e6ab58f121d35273ba8e96d6a2b
