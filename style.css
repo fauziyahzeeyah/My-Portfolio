@@ -114,6 +114,15 @@ button a {
   color: #6070ff;
 }
 
+.tech-dev li a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
 .nav-links ul li a {
   color: #344563;
   font-family: "Poppins", sans-serif;
@@ -368,15 +377,6 @@ button a {
 .tech-dev {
   display: flex;
   flex-direction: row;
-}
-
-.tech-dev li a {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
 }
 
 .text p {
