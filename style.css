@@ -415,6 +415,34 @@ button {
   grid-template-columns: repeat(1, 1fr);
 }
 
+.about-sec{
+  margin: 0 1rem;
+}
+
+.about-sec h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  width: 327px;
+  height: 101px;
+  color: #172b4d;
+}
+
+.about-sec p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  width: 327px;
+  height: 144px;
+}
+
 .one {
   display: flex;
   flex-direction: column;
