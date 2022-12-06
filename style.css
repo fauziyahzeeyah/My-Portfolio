@@ -541,6 +541,7 @@ button:active {
   width: 300px;
   height: 100px;
 }
+
 .contactPage {
   width: 375px;
   height: 779px;
@@ -549,6 +550,7 @@ button:active {
   background-color: #6070ff;
   border-top-left-radius: 80px;
 }
+
 .container {
   width: 100%;
   height: 100%;
@@ -557,9 +559,10 @@ button:active {
   align-items: center;
   flex-direction: column;
 }
+
 .contactMe {
-  font-family: "Poppins", sans-serif;
-  font-style: Bold;
+  font-family: 'Poppins', sans-serif;
+  font-style: bold;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
@@ -567,25 +570,26 @@ button:active {
   margin-bottom: 1rem;
 }
 .descriptionContact {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: regular;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
   padding-bottom: 20px;
 }
+
 .button {
   justify-self: left;
 }
 
 input {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   width: 327px;
   height: 48px;
   margin-bottom: 5px;
-  font-family: "Poppins";
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -597,10 +601,10 @@ input {
 }
 
 textarea {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  font-family: "Poppins";
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
