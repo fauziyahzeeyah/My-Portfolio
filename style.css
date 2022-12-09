@@ -96,24 +96,6 @@ body {
   flex-direction: column;
 }
 
-.drop-downs li {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  color: #253858;
-  background: #f7f7f9;
-  border-radius: 8px;
-  width: 100%;
-  height: auto;
-  padding-bottom: 10px;
-  margin-bottom: 7px;
-}
-
 .mobile-navigation ul li {
   font-weight: 600;
   font-size: 32px;
@@ -640,24 +622,6 @@ textarea {
   .card-body h3 {
     font-size: 40px;
     line-height: 52px;
-  }
-  
-   .drop-downs li {
-     font-family: "Poppins", sans-serif;
-     font-style: normal;
-     font-weight: 500;
-     font-size: 15px;
-     line-height: 20px;
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     color: #253858;
-     background: #f7f7f9;
-     border-radius: 8px;
-     width: 100%;
-     height: auto;
-     padding-bottom: 10px;
-     margin-bottom: 7px;
   }
   
   .card-body ul > li {
