@@ -15,19 +15,14 @@ html {
 body,
 h1,
 h2,
-h3,
 h4,
-h5,
-h6,
 p,
-ol,
 ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
 }
 
-ol,
 ul {
   list-style: none;
 }
@@ -972,56 +967,21 @@ textarea {
     min-width: 160px;
   }
 
-  .drop-downs {
-    width: 80%;
-    height: auto;
-    margin-top: -300px;
-    margin-left: -40px;
-  }
-
-  .lang {
-    width: 100%;
-    height: auto;
-    margin-bottom: 40px;
-    justify-content: space-between;
-  }
-
-  .ski {
-    width: 100%;
-    height: auto;
-    justify-content: space-between;
-  }
-
-  .btn-link {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-right: 5%;
-    padding: 8px;
-    padding-right: 25px;
-    padding-bottom: 20px;
-    justify-content: flex-start;
-  }
-
-  .btn2 {
-    padding-right: 50px;
-    padding-left: 10px;
-  }
-
-  .btn3 {
-    padding-right: 50px;
-    padding-left: 10px;
-    margin-right: 0;
-  }
-
-  .lang-names {
-    margin-top: 15px;
-    font-size: 20px;
-  }
-
-  .drop-down-Btns {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-  }
+  .drop-downs li {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #253858;
+  background: #f7f7f9;
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  margin-bottom: 7px;
+}
 }
