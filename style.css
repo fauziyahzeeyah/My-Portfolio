@@ -1022,4 +1022,12 @@ textarea {
   .modal--buttons-techs-wrapper :nth-child(2) > button {
     min-width: 160px;
   }
+
+  .desktopCard {
+    transition: all 0.5s;
+  }
+
+  .desktopCard:hover {
+    width: 95%;
+  }
 }
