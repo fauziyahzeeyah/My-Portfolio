@@ -132,6 +132,7 @@ body {
   height: 48px;
   padding: 0 1em;
   margin-top: 20px;
+  transition: all 1s;
 }
 
 .btn:hover {
@@ -407,6 +408,7 @@ body {
   margin-top: 5%;
   margin-bottom: 2%;
   margin-right: 0;
+  transition: all 1s;
 }
 
 .more:hover {
@@ -1021,5 +1023,13 @@ textarea {
 
   .modal--buttons-techs-wrapper :nth-child(2) > button {
     min-width: 160px;
+  }
+
+  .desktopCard {
+    transition: all 0.5s;
+  }
+
+  .desktopCard:hover {
+    width: 95%;
   }
 }
