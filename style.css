@@ -407,6 +407,7 @@ body {
   margin-top: 5%;
   margin-bottom: 2%;
   margin-right: 0;
+  transition: all 1s;
 }
 
 .more:hover {
