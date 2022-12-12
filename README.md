@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
@@ -13,11 +12,9 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -25,10 +22,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-
 # 📖 [First Mobile Porfolio] <a name="about-project"></a>
 
-**[first-mobile-porfolio]** is a project about my qualifications in programming
+**[first-mobile-porfolio]** is a project about my qualifications in programming both in desktop and mobile version.
 
 ## 🛠 Built With <a name="built-with"></a>
    - HTML & CSS
@@ -38,17 +34,27 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+ https://fauziyahzeeyah.github.io/port-folio-mobile/
+
+- [Live Demo Link](https://fauziyahzeeyah.github.io/port-folio-mobile/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
- Clone the repo named first-mobile-portfolio
+ Clone the repo named port-folio-mobile
 
 ### Setup
 
 Clone this repository to your desired folder:
-  git@github.com:fauziyahzeeyah/first-mobile-potfoilo.git
+ git@github.com:fauziyahzeeyah/port-folio-mobile.git
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -57,7 +63,16 @@ Clone this repository to your desired folder:
 - GitHub: [@zeeyah](https://github.com/fauziyahzeeyah)
 - Twitter: [@FauziyahZeeyah](https://twitter.com/FauziyahZeeyah?t=5x4tHwdJG62bloZ3QehDcw&s=08)
 
+👤 **Tamara Dimov**
+
+- GitHub: [@TamaraDimov](https://github.com/TamaraDimov)
+
+👤 **Grace Htet**
+
+  - GitHub: [@GraceHtet](https://github.com/GraceHtet)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -65,9 +80,10 @@ If you like this project please give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Falis and Zainab A.
+I would like to thank @GraceHtet and @TamaraDimov
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,7 +97,10 @@ I would like to thank Falis and Zainab A.
  Why did I ignore node_modules/?
   - [Answer_2]
     If folder node_modules: exists then npm install will use those vendored libraries and will rebuild any binary dependencies with npm rebuild.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
