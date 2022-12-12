@@ -13,6 +13,7 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+  - [🚀 Live Demo]
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -37,6 +38,9 @@
    - Github
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo
+ https://fauziyahzeeyah.github.io/port-folio-mobile/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
