@@ -63,13 +63,9 @@ Clone this repository to your desired folder:
 - GitHub: [@zeeyah](https://github.com/fauziyahzeeyah)
 - Twitter: [@FauziyahZeeyah](https://twitter.com/FauziyahZeeyah?t=5x4tHwdJG62bloZ3QehDcw&s=08)
 
-👤 **Tamara Dimov**
+👤 **Glory Mugizi**
 
-- GitHub: [@TamaraDimov](https://github.com/TamaraDimov)
-
-👤 **Grace Htet**
-
-  - GitHub: [@GraceHtet](https://github.com/GraceHtet)
+- GitHub: [@glorymugizi](https://github.com/glorymugizi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
