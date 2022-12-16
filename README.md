@@ -40,6 +40,10 @@
 
 - [Live Demo Link](https://fauziyahzeeyah.github.io/port-folio-mobile/)
 
+  https://www.loom.com/share/f56e56936bee40c2b4485fbba1921643
+
+- [Loom Video Link](https://www.loom.com/share/f56e56936bee40c2b4485fbba1921643)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
