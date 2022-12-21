@@ -279,7 +279,7 @@ body {
 
 .works {
   display: grid;
-  grid-template-rows: 4, 1fr;
+  grid-template-rows: 4px 1fr;
   row-gap: 5rem;
 }
 
@@ -423,7 +423,6 @@ body {
 }
 
 .more {
-  size: 20px;
   line-height: 24px;
   font-size: 17px;
   padding: 2% 5%;
@@ -894,7 +893,7 @@ textarea {
 
   .linkButtons {
     width: 100%;
-    margin-top: 3% 0;
+    margin-top: 3%;
   }
 
   .more {
