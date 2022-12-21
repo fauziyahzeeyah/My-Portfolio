@@ -69,62 +69,38 @@ body {
 }
 
 .toggle {
-  height: 45px;
-  width: 45px;
-  transition: all 0.5s ease-in-out;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  position: relative;
+  z-index: 9999;
   cursor: pointer;
 }
 
-.fa-bars {
+.bars {
+  display: block;
   width: 30px;
-  height: 4px;
-  position: relative;
-  background-color: #344563;
-  border-radius: 5px;
-  transition: all 0.5s ease-in-out;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #6070ff;
 }
 
-.toggle.open .fa-bars {
-  transform: translateX(-45px);
-  background-color: transparent;
+.toggle.open .bars:nth-child(2) {
+  opacity: 0;
 }
 
-.fa-bars::before,
-.fa-bars::after {
-  content: "";
-  position: absolute;
-  width: 30px;
-  height: 4px;
-  border-radius: 5px;
-  background-color: #344563;
-  transition: all 0.5s ease-in-out;
-}
-
-.fa-bars::before {
-  transform: translateY(-10px);
-}
-
-.toggle.open .fa-bars::before {
-  transform: rotate(45deg) translate(35px, -35px);
+.toggle.open .bars:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
   background-color: #fff;
 }
 
-.fa-bars::after {
-  transform: translateY(10px);
-}
-
-.toggle.open .menu-bar::after {
-  transform: rotate(-45deg) translate(35px, 35px);
+.toggle.open .bars:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
   background-color: #fff;
 }
 
 .mobile-navigation {
   position: fixed;
   top: 0;
-  right: 0;
+  right: -100%;
   padding-left: 1em;
   background-color: #6070ff;
   mix-blend-mode: multiply;
@@ -132,6 +108,11 @@ body {
   min-width: 100%;
   height: 100vh;
   z-index: 999;
+  transition: 0.5s ease-in-out;
+}
+
+.mobile-navigation.show {
+  right: 0;
 }
 
 .mobile-navigation ul {
