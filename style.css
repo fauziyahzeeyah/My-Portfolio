@@ -68,37 +68,62 @@ body {
   display: none;
 }
 
+.toggle {
+  display: block;
+  position: relative;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.bars {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #6070ff;
+}
+
+.toggle.open .bars:nth-child(2) {
+  opacity: 0;
+}
+
+.toggle.open .bars:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: #fff;
+}
+
+.toggle.open .bars:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: #fff;
+}
+
 .mobile-navigation {
-  padding-top: 1.5em;
-  position: absolute;
+  position: fixed;
   top: 0;
-  left: 0;
+  right: -100%;
   padding-left: 1em;
-  display: none;
   background-color: #6070ff;
   mix-blend-mode: multiply;
   backdrop-filter: blur(7px);
-  width: 100%;
+  min-width: 100%;
   height: 100vh;
+  z-index: 999;
+  transition: 0.5s ease-in-out;
+  padding-top: 80px;
 }
 
-.mobile-nav-active {
-  display: flex;
-  flex-direction: column;
-}
-
-.mobile-navigation .close-icon-wrapper {
-  display: flex;
-  justify-content: space-between;
+.mobile-navigation.show {
+  right: 0;
 }
 
 .mobile-navigation ul {
+  display: flex;
   flex-direction: column;
+  gap: 35px;
 }
 
 .mobile-navigation ul li {
   font-weight: 600;
-  font-size: 32px;
   line-height: 44px;
 }
 
@@ -109,6 +134,8 @@ body {
 
 .mobile-navigation ul:last-child > li a {
   color: #fff;
+  padding: 20px;
+  font-size: 40px;
 }
 
 .container {
@@ -253,7 +280,7 @@ body {
 
 .works {
   display: grid;
-  grid-template-rows: 4, 1fr;
+  grid-template-rows: 4px 1fr;
   row-gap: 5rem;
 }
 
@@ -397,7 +424,6 @@ body {
 }
 
 .more {
-  size: 20px;
   line-height: 24px;
   font-size: 17px;
   padding: 2% 5%;
@@ -720,11 +746,11 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-  .headline-bar .hamburger-icon {
+  .nav i {
     display: none;
   }
 
-  .mobile-navigation {
+  .toggle {
     display: none;
   }
 
@@ -868,7 +894,7 @@ textarea {
 
   .linkButtons {
     width: 100%;
-    margin-top: 3% 0;
+    margin-top: 3%;
   }
 
   .more {

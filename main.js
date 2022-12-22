@@ -1,14 +1,12 @@
-const  toogleMenu=document.querySelector(".toogle");
-const navLinks=document.querySelector(".nav-links");
-let menuOpen=false;
+const hamburger = document.querySelector('.toggle');
+const links = document.querySelector('.mobile-navigation');
 
-toogleMenu.addEventListener("click", ()=>{
-    if(!menuOpen){
-        toogleMenu.classList.add("open");
-        menuOpen= true;
-    }else{
-        toogleMenu.classList.remove("open");
-        menuOpen= false;
-    }
-    navLinks.classList.toggle("open")
-})
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('open');
+  links.classList.toggle('show');
+});
+
+document.querySelectorAll('.nav-tool').forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('open');
+  links.classList.remove('show');
+}));

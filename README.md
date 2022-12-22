@@ -27,18 +27,19 @@
 **[first-mobile-porfolio]** is a project about my qualifications in programming both in desktop and mobile version.
 
 ## 🛠 Built With <a name="built-with"></a>
-   - HTML & CSS
-   - Linters
-   - Git
-   - Github
+
+- HTML & CSS
+- Linters
+- Git
+- Github
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- https://fauziyahzeeyah.github.io/port-folio-mobile/
+  https://fauziyahzeeyah.github.io/port-folio-mobile/
 
-- [Live Demo Link](https://fauziyahzeeyah.github.io/port-folio-mobile/)
+- [Live Demo Link]( https://fauziyahzeeyah.github.io/port-folio-mobile/)
 
   https://www.loom.com/share/f56e56936bee40c2b4485fbba1921643
 
@@ -49,16 +50,14 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
- Clone the repo named port-folio-mobile
+Clone the repo named port-folio-mobile
 
 ### Setup
 
 Clone this repository to your desired folder:
- git@github.com:fauziyahzeeyah/port-folio-mobile.git
-
+git@github.com:fauziyahzeeyah/port-folio-mobile.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -67,19 +66,19 @@ Clone this repository to your desired folder:
 - GitHub: [@zeeyah](https://github.com/fauziyahzeeyah)
 - Twitter: [@FauziyahZeeyah](https://twitter.com/FauziyahZeeyah?t=5x4tHwdJG62bloZ3QehDcw&s=08)
 
-👤 **Glory Mugizi**
+👤 **Dieum**
 
-- GitHub: [@glorymugizi](https://github.com/glorymugizi)
+- GitHub: [@dieum512](https://github.com/dieum512/)
+- Twitter: [@dieumakonkw](https://twitter.com/dieumakonkw)
+- LinkedIn: [Dieum Akonkwa](https://www.linkedin.com/in/dieum-akonkwa-7981b924b/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project please give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -90,11 +89,11 @@ I would like to thank @GraceHtet and @TamaraDimov
 ## ❓ FAQ <a name="faq"></a>
 
 - **[Question_1]**
- Why did I add MIT.md?
+  Why did I add MIT.md?
   - [Answer_1]
-   I added MIT license because it gives users express permission to reuse code for any purpose.
+    I added MIT license because it gives users express permission to reuse code for any purpose.
 - **[Question_2]**
- Why did I ignore node_modules/?
+  Why did I ignore node_modules/?
   - [Answer_2]
     If folder node_modules: exists then npm install will use those vendored libraries and will rebuild any binary dependencies with npm rebuild.
 
