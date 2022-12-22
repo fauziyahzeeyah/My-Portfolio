@@ -692,34 +692,42 @@ textarea {
     line-height: 24px;
     font-weight: 400;
   }
+
   .specs_client {
     font-weight: 500;
   }
+
   .modal {
     padding: 77px 192px;
   }
+
   .modal__close {
     right: 230px;
     top: 100px;
   }
+
   .modal__content > .work-card_picture {
     height: 400px;
     width: 100%;
   }
+
   .modal__content > .work-card_picture > img {
     height: 400px;
     object-fit: cover;
   }
+
   .modal_description {
     flex-direction: row;
     padding-top: 60px;
   }
+
   .modal_description > .work-card_description {
     width: calc(100% - 330px);
     padding-right: 15px;
     overflow-y: auto;
     max-height: 150px;
   }
+  
   .modal__footer {
     width: 320px;
   }
