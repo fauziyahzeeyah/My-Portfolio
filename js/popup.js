@@ -1,83 +1,83 @@
-const projectWrapper = document.querySelector("#works-wrapper");
-const modal = document.querySelector("#modal");
-const closeModal = document.querySelector("#close-modal");
-const modalContent = document.querySelector("#modal-content");
+const projectWrapper = document.querySelector('#works-wrapper');
+const modal = document.querySelector('#modal');
+const closeModal = document.querySelector('#close-modal');
+const modalContent = document.querySelector('#modal-content');
 
-closeModal.addEventListener("click", () => modal.classList.add("hidden"));
+closeModal.addEventListener('click', () => modal.classList.add('hidden'));
 
 const projects = [
   {
     id: 1,
-    name: "Tonic",
-    company: "Canopy",
-    position: "Back End Dev",
-    year: "2015",
+    name: 'Tonic',
+    company: 'Canopy',
+    position: 'Back End Dev',
+    year: '2015',
     shortDescription:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    featuredImage: "./images/1st img.png",
-    technologies: ["html", "css", "javaScript"],
-    liveVersion: "https://fauziyahzeeyah.github.io/port-folio-mobile/",
-    source: "https://github.com/fauziyahzeeyah/port-folio-mobile",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    featuredImage: './images/1st img.png',
+    technologies: ['html', 'css', 'javaScript'],
+    liveVersion: 'https://fauziyahzeeyah.github.io/port-folio-mobile/',
+    source: 'https://github.com/fauziyahzeeyah/port-folio-mobile',
   },
   {
     id: 2,
-    name: "Multi-Post Stories",
-    company: "Canopy",
-    position: "Back End Dev",
-    year: "2015",
+    name: 'Multi-Post Stories',
+    company: 'Canopy',
+    position: 'Back End Dev',
+    year: '2015',
     shortDescription:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    Image: "./images/2nd img.png",
-    technologies: ["html", "css", "javaScript"],
-    liveVersion: "https://fauziyahzeeyah.github.io/port-folio-mobile/",
-    source: "https://github.com/fauziyahzeeyah/port-folio-mobile",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    Image: './images/2nd img.png',
+    technologies: ['html', 'css', 'javaScript'],
+    liveVersion: 'https://fauziyahzeeyah.github.io/port-folio-mobile/',
+    source: 'https://github.com/fauziyahzeeyah/port-folio-mobile',
   },
   {
     id: 3,
-    name: "Tonic",
-    company: "Canopy",
-    position: "Back End Dev",
-    year: "2015",
+    name: 'Tonic',
+    company: 'Canopy',
+    position: 'Back End Dev',
+    year: '2015',
     shortDescription:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    Image: "./images/3rd img.png",
-    technologies: ["html", "css", "javaScript"],
-    liveVersion: "https://fauziyahzeeyah.github.io/port-folio-mobile/",
-    source: "https://github.com/fauziyahzeeyah/port-folio-mobile",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    Image: './images/3rd img.png',
+    technologies: ['html', 'css', 'javaScript'],
+    liveVersion: 'https://fauziyahzeeyah.github.io/port-folio-mobile/',
+    source: 'https://github.com/fauziyahzeeyah/port-folio-mobile',
   },
   {
     id: 4,
-    name: "Multi-Post Stories",
-    company: "Canopy",
-    position: "Back End Dev",
-    year: "2015",
+    name: 'Multi-Post Stories',
+    company: 'Canopy',
+    position: 'Back End Dev',
+    year: '2015',
     shortDescription:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    Image: "./images/4th img.png" ,
-    technologies: ["html", "css", "javaScript"],
-    liveVersion: "https://fauziyahzeeyah.github.io/port-folio-mobile/",
-    source: "https://github.com/fauziyahzeeyah/port-folio-mobile",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    Image: './images/4th img.png',
+    technologies: ['html', 'css', 'javaScript'],
+    liveVersion: 'https://fauziyahzeeyah.github.io/port-folio-mobile/',
+    source: 'https://github.com/fauziyahzeeyah/port-folio-mobile',
   },
 ];
 
 projects.forEach((project) => {
-  const article = document.createElement("article");
-  article.classList.add("work-card");
+  const article = document.createElement('article');
+  article.classList.add('work-card');
 
   function concatenateTechnologies(acc, cur) {
     acc += `<li class="tag">${cur}</li>`;
     return acc;
   }
 
-  const technologies = project.technologies.reduce(concatenateTechnologies, "");
+  const technologies = project.technologies.reduce(concatenateTechnologies, '');
   const buttonId = `see-project-${project.id}`;
 
   article.innerHTML = `
@@ -105,7 +105,7 @@ projects.forEach((project) => {
 
   const projectButton = document.querySelector(`#${buttonId}`);
 
-  projectButton.addEventListener("click", () => {
+  projectButton.addEventListener('click', () => {
     modalContent.innerHTML = `
       <h3 class="work-card_title">${project.name}</h3>
 
@@ -149,6 +149,6 @@ projects.forEach((project) => {
 
       </div>
     `;
-    modal.classList.remove("hidden");
+    modal.classList.remove('hidden');
   });
 });
