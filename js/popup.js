@@ -16,7 +16,7 @@ const projects = [
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './images/1st img.png',
+    featuredImage: '1stimg.png',
     technologies: ['html', 'css', 'javaScript'],
     liveVersion: 'https://fauziyahzeeyah.github.io/port-folio-mobile/',
     source: 'https://github.com/fauziyahzeeyah/port-folio-mobile',
@@ -31,7 +31,7 @@ const projects = [
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    Image: './images/2nd img.png',
+    featuredImage: '2ndimg.png',
     technologies: ['html', 'css', 'javaScript'],
     liveVersion: 'https://fauziyahzeeyah.github.io/port-folio-mobile/',
     source: 'https://github.com/fauziyahzeeyah/port-folio-mobile',
@@ -46,7 +46,7 @@ const projects = [
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    Image: './images/3rd img.png',
+    featuredImage: '3rdimg.png',
     technologies: ['html', 'css', 'javaScript'],
     liveVersion: 'https://fauziyahzeeyah.github.io/port-folio-mobile/',
     source: 'https://github.com/fauziyahzeeyah/port-folio-mobile',
@@ -61,7 +61,7 @@ const projects = [
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    Image: './images/4th img.png',
+    featuredImage: '4thimg.png',
     technologies: ['html', 'css', 'javaScript'],
     liveVersion: 'https://fauziyahzeeyah.github.io/port-folio-mobile/',
     source: 'https://github.com/fauziyahzeeyah/port-folio-mobile',
@@ -82,7 +82,7 @@ projects.forEach((project) => {
 
   article.innerHTML = `
   <div class="work-card_picture">
-    <img src="./images/desktop 1.png${project.Image}" alt="Tonic" />
+    <img src="images/cards/${project.featuredImage}" alt="Tonic" />
   </div>
   <div class="work-card_elements">
     <h3 class="work-card_title">${project.name}</h3>
@@ -118,7 +118,7 @@ projects.forEach((project) => {
       </div>
 
       <div class="work-card_picture">
-        <img src="./images/desktop 2.png${project.featuredImage}" alt="Multi-Post stories" />
+        <img src="images/cards/${project.featuredImage}" alt="Multi-Post stories" />
       </div>
 
       <div class="modal_description">
