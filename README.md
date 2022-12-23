@@ -129,6 +129,6 @@ If you like this project give it a star and follow me
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]([./LICENSE](https://github.com/fauziyahzeeyah/port-folio-mobile/commit/e1c33c8b9a7cb94417172f9e617cfd2e06f31fa7)) licensed.
+This project is [MIT](https://github.com/fauziyahzeeyah/port-folio-mobile/blob/accessibility-feature/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
