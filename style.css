@@ -112,6 +112,10 @@ textarea {
 textarea {
   resize: none;
   height: 170px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 2px;
+  width: 447px;
 }
 
 .header-logo {
@@ -531,8 +535,7 @@ textarea {
   }
 
   input[type="text"],
-  input[type="email"],
-  textarea {
+  input[type="email"] {
     border-radius: 0;
   }
 
@@ -678,12 +681,9 @@ textarea {
     padding: 20px;
   }
 
-  .field-data2 {
+  textarea {
     background: #fff;
     border: 1px solid #cfd8dc;
-    border-radius: 2px;
-    width: 447px;
-    height: 170px;
   }
 
   .work-card_specs {
