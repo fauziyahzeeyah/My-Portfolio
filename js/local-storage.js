@@ -1,23 +1,12 @@
-const fields = document.querySelectorAll('.field-data');
+function saveData() {
+  let name = '';
+  let email = '';
+  let message = '';
+  name = document.getElementById('name').value;
+  email = document.getElementById('email').value;
+  message = document.getElementById('message').value;
 
-let formData = {
-  name: '',
-  email: '',
-  message: '',
-};
-
-fields.forEach((field) => {
-  field.addEventListener('input', () => {
-    formData[field.name] = field.value;
-    localStorage.setItem('portfolio-form-data', JSON.stringify(formData));
-  });
-});
-
-window.addEventListener('load', () => {
-  const storedData = localStorage.getItem('portfolio-form-data');
-  formData = JSON.parse(storedData);
-
-  fields.forEach((field) => {
-    field.value = formData[field.name];
-  });
-});
+  localStorage.setItem('name', name);
+  localStorage.setItem('email', email);
+  localStorage.setItem('message', message);
+}
