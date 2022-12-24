@@ -35,5 +35,5 @@ inputsArray.forEach((input) => input.addEventListener('input', (e) => {
   } else {
     messageInput.value = input.value;
   }
-  saveFormInputs(nameInput, emailInput, messageInput);
+//   saveFormInputs(nameInput, emailInput, messageInput);
 }));
