@@ -1,4 +1,3 @@
-
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 const messageInput = document.getElementById('message');
@@ -26,25 +25,15 @@ window.addEventListener('load', () => {
 });
 
 submitForm.addEventListener('click', (e) => {
-  if (emailInput.value !== emailInput.value.toLowerCase()) {
-    console.log('Email validation');
-  }
-  else {
     saveFormInputs(nameInput, emailInput, messageInput);
     myForm.reset();
-  }
 });
-
-
 
 inputsArray.forEach((input) => input.addEventListener('input', (e) => {
   if (input === nameInput) {
     nameInput.value = input.value;
-  } 
- else {
+  } else {
     messageInput.value = input.value;
   }
   saveFormInputs(nameInput, emailInput, messageInput);
-
 }));
-
