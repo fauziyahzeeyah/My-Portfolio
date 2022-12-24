@@ -25,8 +25,8 @@ window.addEventListener('load', () => {
 });
 
 submitForm.addEventListener('click', (e) => {
-    saveFormInputs(nameInput, emailInput, messageInput);
-    myForm.reset();
+  saveFormInputs(nameInput, emailInput, messageInput);
+  myForm.reset();
 });
 
 inputsArray.forEach((input) => input.addEventListener('input', (e) => {
