@@ -27,10 +27,10 @@
 - [📝 License](#license)
 
 
-# 📖 [PORT-FOLIO MOBILE] <a name="about-project"></a>
+# 📖 [MY-PORTFOLIO] <a name="about-project"></a>
 
 
-**[port-folio-mobile]** is a webpage development where my qualifications are listed which has a form to contact me through including my social media links.
+**[My-portfolio]** is a webpage development where my qualifications are listed which has a form to contact me through including my social media links.
 
 ## 🛠 Built With <a name="built-with"></a>
 
